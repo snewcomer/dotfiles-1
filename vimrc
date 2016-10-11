@@ -55,6 +55,7 @@ NeoBundle '~/dotfiles/vim/my-plugins/vim-grep-quickfix', {'type': 'nosync'}
 NeoBundle '~/dotfiles/vim/my-plugins/vim-wiki-links', {'type': 'nosync'}
 NeoBundle 'hhff/SpacegrayEighties.vim'
 NeoBundle 'dracula/vim'
+NeoBundle 'elixir-lang/vim-elixir'
 call neobundle#end()
 filetype  plugin on
 filetype  indent on

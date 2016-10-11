@@ -39,3 +39,4 @@ alias rogue='tmux switch-client -t "pair-session"; tmux display-message "Enterin
 alias buddy='tmux switch-client -t "host-session"; tmux display-message "Entering Buddy Mode"'
 alias delete_pyc='find . -name \*.pyc -exec rm \{\} \+'
 alias c='clear'
+alias nombom='npm cache clear && bower cache clean && rm -rf node_modules bower_components && npm install'
