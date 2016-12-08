@@ -140,3 +140,5 @@ fi
 # >>1
 
 # EOF
+
+export PATH="$HOME/.yarn/bin:$PATH"
