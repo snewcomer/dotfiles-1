@@ -45,6 +45,7 @@ source ~/.zshplugins/cd.plugin.zsh > /dev/null 2>&1
 source ~/.zshplugins/ackv.plugin.zsh > /dev/null 2>&1
 source ~/.zshplugins/ff.plugin.zsh > /dev/null 2>&1
 source ~/.zshplugins/extract.plugin.zsh > /dev/null 2>&1
+source ~/.bash_profile
 # >>1
 
 # General Settings <<1

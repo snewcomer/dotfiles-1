@@ -29,7 +29,9 @@ alias startdb='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/serv
 alias stopdb='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
 alias gs='git status'
 alias gd='git diff'
-alias gc='git commit'
+alias gca='git commit --amend'
+alias gc='git commit -m'
+alias go="git checkout"
 alias push='git push origin master'
 alias pull='git pull --rebase'
 alias ts='tig status'
@@ -39,4 +41,10 @@ alias rogue='tmux switch-client -t "pair-session"; tmux display-message "Enterin
 alias buddy='tmux switch-client -t "host-session"; tmux display-message "Entering Buddy Mode"'
 alias delete_pyc='find . -name \*.pyc -exec rm \{\} \+'
 alias c='clear'
-alias nombom='npm cache clear && bower cache clean && rm -rf node_modules bower_components && npm install'
+alias nombom="npm cache clear && bower cache clean && rm -rf node_modules bower_components && npm install && bower install"
+
+alias et='ember t -s'
+alias etf='ember t -s -f'
+alias ets='ember t -s -f scott'
+alias ni='npm install'
+
