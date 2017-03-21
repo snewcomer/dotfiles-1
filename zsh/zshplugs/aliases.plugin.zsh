@@ -36,6 +36,7 @@ alias go="git checkout"
 alias gr='git reset HEAD~'
 alias push='git push origin master'
 alias gpush='git push'
+alias gpushset= 'git push --set-upstream origin'
 alias pushf='git push --force-with-lease'
 alias pull='git pull --rebase'
 alias ts='tig status'
@@ -47,6 +48,7 @@ alias delete_pyc='find . -name \*.pyc -exec rm \{\} \+'
 alias c='clear'
 alias nombom="npm cache clear && bower cache clean && rm -rf node_modules bower_components && npm install && bower install"
 
+alias es='ember s'
 alias et='ember t -s'
 alias etf='ember t -s -f'
 alias ets='ember t -s -f scott'
