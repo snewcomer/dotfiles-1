@@ -36,7 +36,8 @@ alias go="git checkout"
 alias gr='git reset HEAD~'
 alias push='git push origin master'
 alias gpush='git push'
-alias gpushset= 'git push --set-upstream origin'
+alias gpushset='git push --set-upstream origin'
+alias list-branches="branch --sort=committerdate"  
 alias pushf='git push --force-with-lease'
 alias pull='git pull --rebase'
 alias ts='tig status'
